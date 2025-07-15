@@ -1,4 +1,3 @@
-=======================
 RENEGADE — A Bullet Hell Game by Kevin Ding
 =======================
 
@@ -7,7 +6,6 @@ Build Date: July 15, 2025
 
 Created with love using Python and Pygame.
 
-=======================
 ABOUT THE GAME
 =======================
 
@@ -18,7 +16,6 @@ Sprites and sound effects were created by OpenAI's ChatGPT 4o.
 
 Thank you for playing RENEGADE. Good luck!
 
-=======================
 CREDITS AND LEGAL
 =======================
 
