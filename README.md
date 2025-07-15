@@ -1,15 +1,15 @@
-============================================================
+=======================
 RENEGADE — A Bullet Hell Game by Kevin Ding
-============================================================
+=======================
 
 Version: 0.27
 Build Date: July 15, 2025
 
 Created with love using Python and Pygame.
 
-============================================================
+=======================
 ABOUT THE GAME
-============================================================
+=======================
 
 RENEGADE is an original bullet hell shooter, including a hand-built bullet hell level engine, made by Kevin Ding. A love letter to bullet hell games through the years, from THUNDER FORCE to STRIKERS1945. 
 
@@ -18,9 +18,9 @@ Sprites and sound effects were created by OpenAI's ChatGPT 4o.
 
 Thank you for playing RENEGADE. Good luck!
 
-============================================================
+=======================
 CREDITS AND LEGAL
-============================================================
+=======================
 
 © 2025 Kevin Ding. All rights reserved.
 
