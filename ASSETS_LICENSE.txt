@@ -1,0 +1,11 @@
+All sprites, sound effects, background images, and music used in this project
+are © Kevin Ding 2025. All rights reserved.
+
+Sprites, sound effects (all assets in sounds/ prefixed by sound_), and background images were made using ChatGPT 4o. Music was composed by Kevin Ding. 
+
+These assets are not open-source and may not be reused, redistributed, or modified
+without explicit permission from the author.
+
+This restriction includes:
+- All files within the /sprites/, /sounds/, and /data/ folders
+- Any visual, audio, or design elements derived from them

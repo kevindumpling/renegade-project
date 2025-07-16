@@ -8,11 +8,11 @@ Created using Pygame.
 
 ===========================================================
 
-Copyright Kevin Ding, 2025. All rights reserved.
-All music assets, code, and game design elements
-belong to Kevin Ding. Unauthorized distribution or reproduction is strictly prohibited.
+This game is partially open source.
 
-All sprites were created by Kevin Ding using OpenAI ChatGPT.
+- All game code is licensed under the MIT License (see `LICENSE`)
+- All assets (sprites, sound effects, music, backgrounds) are **not open source**
+  and are protected under copyright. See `ASSETS_LICENSE.txt`
 
 ===========================================================
 
