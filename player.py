@@ -240,7 +240,7 @@ class Player(Entity):
 
             center_x, center_y = int(self.rect.centerx), int(self.rect.centery)
             # Wave of bullets.
-            Bullet(self.bullet_type, Vector2(center_x - 3, center_y), firing_velocity, ZERO_VECTOR, self, (20, 15), player_bullets,
+            Bullet(self.bullet_type, Vector2(center_x - 4, center_y), firing_velocity, ZERO_VECTOR, self, (20, 15), player_bullets,
                    targets=self.targets)
         PLAYER_FIRE_SOUND.play()
 

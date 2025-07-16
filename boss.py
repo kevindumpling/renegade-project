@@ -122,8 +122,6 @@ class Boss(Entity):
         self.current_phase = self.phases[self._current_phase_index]
         self.current_phase.start(self)
         self.health = self.current_phase.max_hp
-        print(f"Entering phase: {self.current_phase.name}")
-
 
     def update(self):
         if not self.active:
