@@ -290,7 +290,7 @@ def main() -> None:
         # Check for 'close game' event.
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                GAME_RUNNING_FLAG = False
+                help.GAME_RUNNING = False
 
             if event.type == pygame.KEYUP:
                 if event.key == pygame.K_TAB:

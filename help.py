@@ -118,25 +118,20 @@ DIFFICULTY_DELAY_INCREASE = 500
 highscore = 0
 skip_banners = False
 
-HIGHSCORE_FILE = "data/save.json"  # Store inside a 'data/' folder
-
-def load_highscore() -> int:
-    """Load highscore from the save."""
-    try:
-        with open(resource_path(HIGHSCORE_FILE), "r") as f:
-            h = json.load(f).get("highscore", 0)
-            return h
-    except FileNotFoundError:
-        print("DEBUG / NO SAVE FILE FOUND.")
-        return 0
-
+SAVE_DIR = os.path.join(os.path.expanduser("~"), ".renegade_save")
+HIGHSCORE_FILE = os.path.join(SAVE_DIR, "save.json")
 
 def save_highscore() -> None:
-    """Save highscore.
-    Precondition: player has been initialized to a Player object."""
-    os.makedirs(resource_path("data"), exist_ok=True)
-    with open(resource_path(HIGHSCORE_FILE), "w") as f:
+    os.makedirs(SAVE_DIR, exist_ok=True)
+    with open(HIGHSCORE_FILE, "w") as f:
         json.dump({"highscore": player.score}, f)
+
+def load_highscore() -> int:
+    try:
+        with open(HIGHSCORE_FILE, "r") as f:
+            return json.load(f).get("highscore", 0)
+    except FileNotFoundError:
+        return 0
 
 """=== STAGES ==="""
 stage1 = StageHandler()

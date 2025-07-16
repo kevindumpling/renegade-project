@@ -537,7 +537,7 @@ class MenuManager:
             ],
                 [
                     TextEntry('RENEGADE', (400, 200), 100, (230, 230, 230), bold=True),
-                    TextEntry('V. 0.26', (400, 260), 25, (230, 230, 230)),
+                    TextEntry('V. 0.27', (400, 260), 25, (230, 230, 230)),
                     TextEntry('© KEVIN DING 2025, ALL RIGHTS RESERVED', (400, 290), 20, (230, 230, 230)),
                     TextEntry("TAKE THE PLANE AND DON'T LOOK BACK.", (400, 350), 20, (230, 230, 230)),
 
