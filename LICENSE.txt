@@ -1,3 +1,18 @@
+NOTE: Assets Are NOT Covered Under This License
+
+All game assets — including but not limited to:
+
+- Sprites
+- Background images
+- Audio files (sound effects and music)
+- Cutscene or title artwork
+
+...are **not open source** and remain © Kevin Ding 2025. All rights reserved.
+
+These assets may not be used, copied, redistributed, or modified without explicit written permission from the author.
+
+------------------------------------------------------------
+
 MIT License
 
 Copyright (c) 2025 Kevin Ding
@@ -19,18 +34,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
 THE SOFTWARE.
-
-------------------------------------------------------------
-
-NOTE: Assets Are NOT Covered Under This License
-
-All game assets — including but not limited to:
-
-- Sprites
-- Background images
-- Audio files (sound effects and music)
-- Cutscene or title artwork
-
-...are **not open source** and remain © Kevin Ding 2025. All rights reserved.
-
-These assets may not be used, copied, redistributed, or modified without explicit written permission from the author.
