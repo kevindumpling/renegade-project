@@ -2,8 +2,8 @@
 RENEGADE — A Bullet Hell Game by Kevin Ding
 =======================
 
-Version: 0.2.8
-Build Date: July 15, 2025
+Version: 0.3.0
+Build Date: July 23, 2025
 
 Created with love using Python and Pygame.
 

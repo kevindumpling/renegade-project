@@ -708,7 +708,7 @@ class SingleLaserPattern(Pattern):
 
         laser.image, laser.mask = LaserCache.get(
             laser.name + "_" + laser.state,
-            (self.width, help.LASER_STANDARD_LENGTH ),  # or help.LASER_STANDARD_LENGTH if defined
+            (self.width, help.LASER_STANDARD_LENGTH),
             self.angle
         )
 

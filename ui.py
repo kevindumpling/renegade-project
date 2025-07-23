@@ -537,7 +537,7 @@ class MenuManager:
             ],
                 [
                     TextEntry('RENEGADE', (400, 200), 100, (230, 230, 230), bold=True),
-                    TextEntry('V. 0.27', (400, 260), 25, (230, 230, 230)),
+                    TextEntry('V. 0.3.0', (400, 260), 25, (230, 230, 230)),
                     TextEntry('© KEVIN DING 2025, ALL RIGHTS RESERVED', (400, 290), 20, (230, 230, 230)),
                     TextEntry("TAKE THE PLANE AND DON'T LOOK BACK.", (400, 350), 20, (230, 230, 230)),
 
@@ -665,12 +665,12 @@ class MenuManager:
         self.show_menu('mission_select')
 
     def _make_player_yf23(self):
-        self._change_player_type('yf23', 8, 9, 6, 70, 6, 'playerbullet_purple', 'bomb_ring_purple')
+        self._change_player_type('yf23', 7, 8, 6, 70, 6, 'playerbullet_purple', 'bomb_ring_purple')
         self.clear_menu()
         self.show_menu('mission_select')
 
     def _make_player_b2(self):
-        self._change_player_type('b2', 14, 16, 3.5, 200, 4, 'playerbullet_yellow', 'bomb_ring_yellow')
+        self._change_player_type('b2', 12, 15, 3.5, 200, 4, 'playerbullet_yellow', 'bomb_ring_yellow')
         self.clear_menu()
         self.show_menu('mission_select')
 

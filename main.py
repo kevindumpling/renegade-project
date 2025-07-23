@@ -2,7 +2,7 @@
 ===========================================================
 
 "RENEGADE"
-version: 0.27 (Last updated: 2025-07-15, 1:23PM)
+version: 0.3.0 (Last updated: 2025-07-23)
 Made by Kevin Ding, with love.
 Created using Pygame.
 
@@ -11,13 +11,13 @@ Created using Pygame.
 This game is partially open source.
 
 - All game code is licensed under the MIT License (see `LICENSE`)
-- All assets (sprites, sound effects, music, backgrounds) are **not open source**
+- All assets (sprites, sound effects, music, backgrounds) are not open source
   and are protected under copyright. See `ASSETS_LICENSE.txt`
 
 ===========================================================
 
 TODO:
-- acceleration on bullets breaks the aiming (we need to incorporate the sign of the corresponding velocity)
+- acceleration on bullets breaks quite a bit, we need to incorporate the sign of the velocity, not just add
 
 ===========================================================
 
@@ -97,7 +97,7 @@ def preload_images():
         for size in [(20, LASER_STANDARD_LENGTH), (50, LASER_STANDARD_LENGTH)]:  # NOTE: ALL used widths MUST go here.
             LaserCache.preload(laser_name, base_img, size)
 
-        LaserCache.preload(laser_name, base_img, (100, 1000))
+        LaserCache.preload(laser_name, base_img, (100, LASER_STANDARD_LENGTH))  # Preload for the big laser.
 
     preload_laser_assets()
 

@@ -195,7 +195,7 @@ class Laser(Bullet):
     """
 
     def __init__(self, name: str, position: Vector2, owner: Entity, width: int, effect_length: int, delay: int, *groups: pygame.sprite.AbstractGroup, targets: Optional[pygame.sprite.AbstractGroup] = None):
-        super().__init__(name, position, ZERO_VECTOR, ZERO_VECTOR, owner, (200, 200), *groups, targets=targets)
+        super().__init__(name, position, ZERO_VECTOR, ZERO_VECTOR, owner, (width, help.LASER_STANDARD_LENGTH), *groups, targets=targets)
         self.warning = True
         self.effect_length = effect_length
         self.delay = delay
